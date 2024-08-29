@@ -10,6 +10,8 @@ Read more about quartz on their official website: https://quartz.jzhao.xyz/
 
 ## Setting Up Your Website
 
+The instructions are (as of writing 2024-08-29) based on the instructions on the Quartz website: https://quartz.jzhao.xyz
+
 Prerequisites: 
 1. Create a Github account
 2. Install `node` and `npm`
@@ -66,6 +68,22 @@ npx quartz sync --no-pull
 This command will push your Quartz and your new changes to your Github repo.
 
 For simplicity, my personal preference is to make an abstraction around these commands so that I don't need to remember what is required when in a project. For my blog, I have a [`justfile`](https://github.com/casey/just) that has the command `just sync`. Makes it less likely to forget the command and how they should interact in the future
+
+#### Deployment
+
+Based on: https://quartz.jzhao.xyz/hosting
+
+In you Github repo: https://github.com/MarkusSagen/blog/settings/pages
+
+**Change**:
+- Settings -> Pages -> Build and Deployment Source to be `Github Actions`
+- Below it, choose the link to create a new deployment configuration yaml file.
+
+Once done, try to commit updates:
+
+```sh
+npx quartz sync
+```
 
 ## Notes
 
