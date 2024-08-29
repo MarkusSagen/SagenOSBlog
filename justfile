@@ -12,6 +12,12 @@ BOLD := "\\033[1m"
 RESET := "\\033[0m"
 NC := "\\033[0m"
 
+push:
+    npx quartz sync
+
+build:
+    npx quartz build --serve
+
 sync:
     npx quartz sync --no-pull
 
