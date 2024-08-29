@@ -12,6 +12,9 @@ BOLD := "\\033[1m"
 RESET := "\\033[0m"
 NC := "\\033[0m"
 
+install:
+    npm i && npx quartz create
+
 push:
     npx quartz sync
 
