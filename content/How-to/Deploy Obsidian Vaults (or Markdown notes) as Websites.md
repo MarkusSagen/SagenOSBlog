@@ -93,6 +93,15 @@ In you Github repo: https://github.com/MarkusSagen/blog/settings/pages
 - Settings -> Pages -> Build and Deployment Source to be `Github Actions`
 - Below it, choose the link to create a new deployment configuration yaml file.
 
+That's it! Now the website is present on [https://markussagen.github.io/blog/](https://markussagen.github.io/blog/)
+Your website will be present at: `https://<USERNAME>.github.io/<REPOSITORY_NAME>`
+
+## Adding new Content
+
+Adding new content to you website will be placed under `<REPOSITORY_NAME>/content`
+
+In this case `blog/content`
+
 Once done, try to commit updates:
 
 ```sh
@@ -100,8 +109,8 @@ npx quartz sync
 # or in my project `just sync`
 ```
 
-That's it! Now the website is present on [https://markussagen.github.io/blog/](https://markussagen.github.io/blog/)
-Your website will be present at: `https://<USERNAME>.github.io/<REPOSITORY_NAME>`
+## Styling (WIP)
+
 
 ---
 

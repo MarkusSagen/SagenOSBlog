@@ -1,6 +1,6 @@
 ---
 title: Why Obsidian for Note Taking?
-draft: true
+draft: false
 tags:
   - obsidian
   - literate-programming
