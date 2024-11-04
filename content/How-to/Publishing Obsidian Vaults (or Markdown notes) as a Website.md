@@ -1,5 +1,5 @@
 ---
-title: Deploy Obsidian Vaults (or Markdown notes) as Websites
+title: Publishing Obsidian Vaults (or Markdown notes) as a Website
 draft: false
 tags:
   - obsidian

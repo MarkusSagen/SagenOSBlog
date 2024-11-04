@@ -8,9 +8,9 @@ Webpage capturing different thoughts, learnings and ideas
 
 ### Selected Notes
 
-- [[Publishing Obsidian Notes as a Website]]
+- [[Publishing Obsidian Vaults (or Markdown notes) as a Website]]
+- [[Why Obsidian for Note-taking?]]
 
-<!-- [[Why Obsidian for Note-taking?]] -->
 
 ---
 

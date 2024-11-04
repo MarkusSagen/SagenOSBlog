@@ -51,7 +51,7 @@ On the nerdier side, having notes as plain text means:
 - Trivial to store in version control (Dropbox, Google Drive, Git)
 - Can be opened in most editors and browsers
 - Option move to other formats and be copied to others
-- Possibility to encrypt notes, use them in code projects for technical documentation, mailing them, and blogs. More on the later in a bit (see [[Publishing Obsidian Notes as a Website]])
+- Possibility to encrypt notes, use them in code projects for technical documentation, mailing them, and blogs. More on the later in a bit (see [[Publishing Obsidian Vaults (or Markdown notes) as a Website]])
 
 Finally, as a programmer, I'm often jumping between projects, taking notes about projects, documenting technical specifications, function, issues and more. Notes and learnings should be possible to edit in any editor. In a future post, I hope to expand on how interactive programming and exploration someone might be used to in Jupyter Notebooks is also possible with a plain-text format. More on that later
 
